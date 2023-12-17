@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+
+}
+ul li{
+    list-style: none;    
+}
+
+div{
+    height: 50px;
+    background-color: #000; 
+    color: white;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+#intro{
+    margin-top: 10px;
+    background-color: #fff;
+    height: 600px;
+    background-image: linear-gradient(to right,rgba(0,0,0,0.5), rgba(255, 255, 255, 0.5)),url("images/ل1.jpg");
+    display: flex;
+}
+
+#guarder{
+    font-size: 26px;
+    padding: 18px;
+    font-weight: bold;
+}
+
+#safety{
+    margin-top: 150px;
+
+}
+
+.praIntro{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#readMore{
+    width: 160px;
+    height: 42px;
+    margin-top: 30px;
+    background-color: white;
+    outline-color: white;
+    outline: none;
+    border: 1px solid hidden;
+    border-radius: 5px;
+
+}
+
+#getQoute{
+    width: 160px;
+    height: 42px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: yellow;
+    outline-color: red;
+    border-radius: 5px;
+}
+
+.whoAreWe{
+    margin-top: 90px;
+    background-color: white;
+    margin-bottom: 90px;
+    height: 260px;
+    display: inline-block;
+}
+
+#hands_backImg{
+    width: 520px;
+    margin-left: 140px;
+    float: left;
+}
+
+#whoAreWe1{
+    float: left; height: 300px; 
+    width: 700px;
+    align-items: center;
+    margin-top: 30px;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    margin-left: -35px;
+}
+
+
+#whoAreWePrg{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.servicesDiv{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+#securities{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+}
+
+.sTypes{
+    width: 360px;
+    height: 320px;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+
+.fontSec{
+    padding-top: 10px; 
+    padding-bottom: 10px;
+     font-weight: bold;
+     margin-top: 90px;
+     font-size: 20px;
+}
+
+.discSec{
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-overflow: ellipsis;
+    
+}
+
+.readMoreSec{
+    width: 160px;
+    height: 42px;
+    margin-top: 30px;
+    background-color: yellow;
+    outline-color: red;
+    border-radius: 5px;
+
+    
+}
+
+.qoutes{
+    clear: both;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    
+    background-color: white;
+}
+
+
+.next{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.next img{
+    width: 20px;
+    border: 20px;
+}
+
+.blurImage{
+    width: 100%;
+    height: 700px;
+    background-image: url("images/blur-image.jpg");
+    background-position: center;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.blurImage div{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.blurImage input{
+    width: 600px;
+    height: 50px;
+    padding-left: 10px;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#sendBtn{
+    width: 140px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+
+
+.guardsImages{
+    margin: 20px;
+}
+
+
+#footerDiv{
+    background-color: black;
+    color: white;
+    width: 100%;;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerTXT{
+    width: 300px;
+}
+
+#newsletter{
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+#subscribeBtn{
+    width: 140px;
+    height: 50px;
+    background-color: yellow;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
